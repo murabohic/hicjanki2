@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+        <title>HIC麻雀部リザルト</title>
+        <script src="code.js" type="text/javascript" charset="utf-8"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" media="all">
+        <style>
+            .minus {
+                color: #ff0000 !important;
+            }
+            .table thead tr th, .table thead tr td {
+                white-space: nowrap;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="py-3 text-center">
+                 <h1>HIC麻雀部</h1>
+            </div>
+            <ul class="list-inline">
+                <li><a href="sec01">目的</a></li>
+                <li><a href="sec02">レート</a></li>
+                <li><a href="sec03">順位</a></li>
+                <li><a href="sec04">基本ルール</a></li>
+                <li><a href="sec05">オリジナルルール</a></li>
+                <li><a href="result01">2017-18シーズン リザルト</a></li>
+            </ul>
+
+            <h2 id="sec01">目的</h2>
+            <p>多忙な日々のリフレッシュを目的とし、健全な麻雀の発展を目指す</p>
+
+            <h2 id="sec02">レート</h2>
+            <ul>
+                <li>1,000点=50円（0.5）</li>
+                <li>チップ1枚=100円</li>
+                <li>ウマは10:20</li>
+            </ul>
+
+            <h2 id="sec03">順位</h2>
+            <p>下記項目順にて着順を決定する</p>
+            <ol>
+                <li>オーラス終了時、点数の高いプレイヤー</li>
+                <li>上手、下手</li>
+            </ol>
+            <p><small>※同点終了の場合、全て上手側を上位着順とする</small></p>
+
+            <h2 id="sec04">基本ルール</h2>
+            <ul>
+                <li>東南戦</li>
+                <li>ありありルール（喰いタン・後づけあり）</li>
+                <li>焼き鳥あり</li>
+                <li>赤ドラ各牌に一枚づつ計３枚</li>
+                <li>チップは、裏ドラ、赤ドラ、一発の場合に計上する</li>
+                <li>チップは門前の場合にのみ発生する</li>
+                <li>25,000点持ち 30,000点返し</li>
+                <li>飛びで終了（0点は続行）、-10ptが加算され、飛ばしたプレイヤーに+10pt加算する</li>
+                <li>ダブロン、トリロンあり<br><small> ※上記の際、供託棒、飛ばしは全て上手側が取得する</small></li>
+                <li>責任払いあり（大三元の三枚目、四喜和の4枚目を鳴かせた場合のみ）<br>
+                    ツモあがり：点数全て支払う<br>
+                ロンあがり：点数の半分支払う</li>
+                <li>チョンボ<br>
+                    親：12,000点 （4,000点ALL）<br>
+                子：8,000点 （4,000点、2,000点）</li>
+                <li>空ポン、空チーの場合、1,000点を供託に支払う</li>
+                <li>ロン、ツモの誤発声時は、上り放棄とする</li>
+                <li>4人リーチで流局</li>
+                <li>麻雀中も会話を楽しむこと<br><small>※「お茶下さい」は含まず</small></li>
+            </ul>
+
+            <h2 id="sec05">オリジナルルール</h2>
+            <ul>
+                <li>赤ドラを3種保有した状態で和了した場合、ご祝儀として+3枚ずつのチップを受取る</li>
+                <li>嶺上開花で和了した場合、ご祝儀として+1枚ずつのチップを受け取る</li>
+                <li>東場、南場に関わらず、親継続は和了した場合に限る</li>
+                <li>西場入りはナシ</li>
+                <li>役満和了した場合、以下チップを受け取る<br>
+                    ツモあがり：+5枚ALL<br>
+                ロンあがり：+10枚</li>
+            </ul>
+
+            <h2 id="result01">2017-18シーズン リザルト</h2>
+            <div class="table-responsive">
+                <table class="footable footable-loaded table table-striped table-bordered table-sm">
+                    <thead>
+                        <tr>
+                            <th class="footable-sortable">名前<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">試合数<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable footable-sorted-desc">通算得点<span class="footable-sort-indicator"></span>
+                            </th>
+
+                            <th data-type="numeric" class="footable-sortable">チップ<span class="footable-sort-indicator"></span>
+                            </th>
+
+                            <th data-type="numeric" class="footable-sortable">順位成績<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">平均順位<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">勝率<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">連対率<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">総得点<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">総失点<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">平均点<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">平均得点<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">平均失点<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">MAX得点<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">飛ばし<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">箱<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">焼鳥<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">役満<span class="footable-sort-indicator"></span>
+                            </th>
+                            <th data-type="numeric" class="footable-sortable">総合<span class="footable-sort-indicator"></span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <tr>
+                            <td class="th02">横田康弘</td>
+                            <td>97</td>
+                            <td>1096</td>
+
+                            <td>79</td>
+
+                            <td>33-28-22-14</td>
+                            <td>2.18</td>
+                            <td>34%</td>
+                            <td>63%</td>
+                            <td>2224</td>
+                            <td class="minus">-1128</td>
+                            <td>11.3</td>
+                            <td>22.93</td>
+                            <td class="minus">-11.63</td>
+                            <td>102</td>
+                            <td>9</td>
+                            <td>6</td>
+                            <td>8</td>
+                            <td>0</td>
+                            <td>31pt</td>
+                        </tr>
+                        <tr>
+                            <td class="th02">村松享</td>
+                            <td>94</td>
+                            <td>317</td>
+
+                            <td class="minus">-37</td>
+
+                            <td>28-19-21-26</td>
+                            <td>2.48</td>
+                            <td>30%</td>
+                            <td>50%</td>
+                            <td>1907</td>
+                            <td class="minus">-1590</td>
+                            <td>3.37</td>
+                            <td>20.29</td>
+                            <td class="minus">-16.91</td>
+                            <td>88</td>
+                            <td>14</td>
+                            <td>7</td>
+                            <td>17</td>
+                            <td>0</td>
+                            <td class="minus">-25pt</td>
+                        </tr>
+                        <tr>
+                            <td class="th02">田村英一</td>
+                            <td>41</td>
+                            <td>132</td>
+
+                            <td class="minus">-5</td>
+
+                            <td>10-14-6-11</td>
+                            <td>2.44</td>
+                            <td>24%</td>
+                            <td>59%</td>
+                            <td>854</td>
+                            <td class="minus">-722</td>
+                            <td>3.22</td>
+                            <td>20.83</td>
+                            <td class="minus">-17.61</td>
+                            <td>133</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>7</td>
+                            <td>1</td>
+                            <td class="minus">-1pt</td>
+                        </tr>
+                        <tr>
+                            <td class="th02">早見拓也</td>
+                            <td>5</td>
+                            <td class="minus">-31</td>
+
+                            <td>0</td>
+
+                            <td>0-2-2-1</td>
+                            <td>2.8</td>
+                            <td>0%</td>
+                            <td>40%</td>
+                            <td>29</td>
+                            <td class="minus">-60</td>
+                            <td class="minus">-6.2</td>
+                            <td>5.8</td>
+                            <td class="minus">-12</td>
+                            <td>18</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td class="minus">-1pt</td>
+                        </tr>
+                        <tr>
+                            <td class="th02">富澤健二</td>
+                            <td>18</td>
+                            <td class="minus">-334</td>
+
+                            <td class="minus">-10</td>
+
+                            <td>3-3-4-8</td>
+                            <td>2.94</td>
+                            <td>17%</td>
+                            <td>33%</td>
+                            <td>174</td>
+                            <td class="minus">-508</td>
+                            <td class="minus">-18.56</td>
+                            <td>9.67</td>
+                            <td class="minus">-28.22</td>
+                            <td>73</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>0</td>
+                            <td class="minus">-22pt</td>
+                        </tr>
+                        <tr>
+                            <td class="th02">山田彩人</td>
+                            <td>118</td>
+                            <td class="minus">-372</td>
+
+                            <td class="minus">-22</td>
+
+                            <td>26-30-30-32</td>
+                            <td>2.58</td>
+                            <td>22%</td>
+                            <td>47%</td>
+                            <td>1843</td>
+                            <td class="minus">-2215</td>
+                            <td class="minus">-3.15</td>
+                            <td>15.62</td>
+                            <td class="minus">-18.77</td>
+                            <td>78</td>
+                            <td>9</td>
+                            <td>16</td>
+                            <td>14</td>
+                            <td>0</td>
+                            <td class="minus">-47pt</td>
+                        </tr>
+                        <tr>
+                            <td class="th02">石塚建郎</td>
+                            <td>99</td>
+                            <td class="minus">-808</td>
+
+                            <td class="minus">-5</td>
+
+                            <td>18-22-33-26</td>
+                            <td>2.68</td>
+                            <td>18%</td>
+                            <td>40%</td>
+                            <td>1258</td>
+                            <td class="minus">-2066</td>
+                            <td class="minus">-8.16</td>
+                            <td>12.71</td>
+                            <td class="minus">-20.87</td>
+                            <td>99</td>
+                            <td>6</td>
+                            <td>12</td>
+                            <td>12</td>
+                            <td>0</td>
+                            <td class="minus">-57pt</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </body>
+
+</html>
